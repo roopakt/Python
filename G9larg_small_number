@@ -1,0 +1,14 @@
+smallest=999  # this is the source code/program code 
+biggest=0     
+counter=0
+while counter<5:
+    num=int(input("Input any number: "))
+    
+    if num<smallest:
+        smallest=num
+    if num>biggest:
+        biggest=num
+    counter=counter+1
+
+print("The biggest number is ",biggest)   #print should be outside the loop
+print("The smallest number is ", smallest)
