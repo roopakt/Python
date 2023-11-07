@@ -10,7 +10,7 @@ def insertion_sort(list):
 
     return list
 
-#https://www.youtube.com/watch?v=8mJ-OhcfpYg
+
 def main():
     list = [99, 0, 5, 20, 123, 0, -1, 72, 21, 22, 13, 8, 7, 67, 29, 1, 2, 4]
     insertion_sort(list)
